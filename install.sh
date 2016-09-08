@@ -17,5 +17,5 @@ echo "curlpathogen=$curlpathogen"
 echo "gittlib=$gittlib"
 echo "gitutils=$gitutils"
 echo "gitsnipmate=$gitsnipmate"
-echo "gitsnipbak=$gitsnipbak"
+echo "cpsnipbak=$cpsnipbak"
 
