@@ -33,7 +33,7 @@ nnoremap <leader>'  viw<esc>a'<esc>bi'<esc>lel
 "change a word to upper or lower
 nnoremap <leader>U  gUiwel
 nnoremap <leader>u  guiwel
-inoremap <f2>  <esc>gUiwea
+inoremap <f3>  <esc>gUiwea
 
 "add ~ and ` characters shortcut keys
 "inoremap 1q `
