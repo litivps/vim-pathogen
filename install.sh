@@ -10,12 +10,15 @@ git clone https://github.com/garbas/vim-snipmate.git
 gitsnipmate=$?
 git clone https://github.com/honza/vim-snippets.git
 gitsnippets=$?
+git clone https://github.com/artur-shaik/vim-javacomplete2.git
+gitjavacomplete2=$?
 cd ..
-cp -f snippets_bak/{c,arduino}.snippets bundle/vim-snippets/snippets
+cp -f snippets_bak/{c,arduino,java}.snippets bundle/vim-snippets/snippets
 cpsnipbak=$?
 echo "curlpathogen=$curlpathogen"
 echo "gittlib=$gittlib"
 echo "gitutils=$gitutils"
 echo "gitsnipmate=$gitsnipmate"
 echo "cpsnipbak=$cpsnipbak"
+echo "javacomplete2=$gitjavacomplete2"
 

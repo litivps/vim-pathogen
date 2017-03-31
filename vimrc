@@ -35,8 +35,6 @@ nnoremap <leader>U  gUiwel
 nnoremap <leader>u  guiwel
 inoremap <f3>  <esc>gUiwea
 
-"add ~ and ` characters shortcut keys
-"inoremap 1q `
-"inoremap 1w ~
-
-
+"javacomplete2
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+autocmd FileType java inoremap . .<C-x><C-o><C-p>
