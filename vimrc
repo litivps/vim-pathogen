@@ -1,6 +1,7 @@
 set nocp
 set nobackup
 set number
+"set relativenumber
 set autoindent
 set cindent
 set shiftwidth=4
@@ -19,22 +20,5 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-"set my leader
-let mapleader=","
-
-"edit .vimrc
-nnoremap <leader>e  :split $MYVIMRC<cr>
-nnoremap <leader>s  :source $MYVIMRC<cr>
-
-"use " or ' include a word on normal mode
-nnoremap <leader>"  viw<esc>a"<esc>bi"<esc>lel
-nnoremap <leader>'  viw<esc>a'<esc>bi'<esc>lel
-
 "change a word to upper or lower
-nnoremap <leader>U  gUiwel
-nnoremap <leader>u  guiwel
 inoremap <f3>  <esc>gUiwea
-
-"javacomplete2
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
-autocmd FileType java inoremap . .<C-x><C-o><C-p>
