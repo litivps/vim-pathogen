@@ -1,0 +1,5 @@
+if you want to use "git push",then you need to do this:
+1. Add email and user name.
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+git config --global push.default simple

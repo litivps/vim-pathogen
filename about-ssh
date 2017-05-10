@@ -1,0 +1,8 @@
+1. Generating a new SSh Key
+Open Terminal
+ssh-kengen -t rsa -b 4096 -C "your_email@example.com"
+2. Adding your SSH Key to the ssh-agent
+"Start the ssh-agent in the background
+eval "$(ssh-agent -s)"
+"Add your ssh private key to the ssh-agent.
+ssh-add ~/.ssh/id_rsa
