@@ -13,8 +13,12 @@ gitsnippets=$?
 cd ..
 cp -f snippets_bak/{c,arduino}.snippets bundle/vim-snippets/snippets
 cpsnipbak=$?
+# using "ls --color=auto"
+cp ls_dircolors ~/.dircolors
+cpdircolors=$?
 echo "curlpathogen=$curlpathogen"
 echo "gittlib=$gittlib"
 echo "gitutils=$gitutils"
 echo "gitsnipmate=$gitsnipmate"
 echo "cpsnipbak=$cpsnipbak"
+echo "cpdircolors=$cpdircolors"
